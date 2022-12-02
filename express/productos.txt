@@ -1,0 +1,14 @@
+[
+  {
+    "title": "Aros",
+    "price": 900,
+    "thumbnail": "https://imagendeejemplo.com",
+    "id": 1
+  }
+]  {
+    "title": "Aros",
+    "price": 900,
+    "thumbnail": "https://imagendeejemplo.com",
+    "id": null
+  }
+]
