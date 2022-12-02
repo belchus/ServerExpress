@@ -80,11 +80,16 @@ const item = {
     price:900,
     thumbnail:'https://imagendeejemplo.com',
 };
+const item2 = {
+    title:'Pulsera',
+    price:1000,
+    thumbnail:'https://imagendeejemplo2.com',
+};
 
 
 const productos = new Contenedor("productos.txt");
 
-productos.save(item)
+productos.save(item2)
 
 //productos.getAll()
 
@@ -92,6 +97,6 @@ productos.save(item)
 
  //productos.getById(1)
 
-productos.deleteById(2)
+//productos.deleteById(2)
 
 module.exports = Contenedor

@@ -9,7 +9,7 @@ const server = app.listen(PORT, () => {
     console.log(`servidor http escuchando en puerto ${server.address().port}`)
 })
 
-server.on('error', error => console.log(`Error en servidor, ${error}`))
+server.on('error', error => console.log(`Error:${error}`))
 
 const productos = new Contenedor('productos.txt')
 
@@ -18,7 +18,7 @@ app.get('/productos', async (req, res) => {
     res.send(productsList)
 })
 
-app.get('/productosRandom', async (req, res) => {
+app.get('/productoRandom', async (req, res) => {
     const productsList = await productos.getAll()
     const randomProduct = Math.floor(Math.random() * productsList.length)
     res.send(productsList[randomProduct])

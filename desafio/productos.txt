@@ -1,7 +1,8 @@
-[]  {
-    "title": "Aros",
-    "price": 900,
-    "thumbnail": "https://imagendeejemplo.com",
+[
+  {
+    "title": "Pulsera",
+    "price": 1000,
+    "thumbnail": "https://imagendeejemplo2.com",
     "id": 1
   }
 ]
